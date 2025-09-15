@@ -95,7 +95,7 @@ The game screen is divided into 4 quadrants, each managed by a dedicated slave n
    ```
 
    
-4. **Start Python GUI**(Terminal 6)
+4. **Start Python GUI**(Terminal 6, must be in the main node's pc)
     ```bash
    python3 arkanoid_gui.py
    ```
