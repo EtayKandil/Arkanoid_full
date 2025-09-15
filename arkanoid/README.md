@@ -59,6 +59,7 @@ The game screen is divided into 4 quadrants, each managed by a dedicated slave n
   **intial shell commands**
   ```bash
   mkdir ....
+  cd dir ......
   git clone https://github.com/EtayKandil/Arkanoid_full.git
   cd arkanoid_full
   cd arkanoid
