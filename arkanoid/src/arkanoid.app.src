@@ -1,0 +1,16 @@
+{application, arkanoid,
+ [{description, "A distributed Arkanoid game in Erlang"},
+  {vsn, "1"},
+  {registered, []},
+  {mod, {arkanoid_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+	wx
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache-2.0"]},
+  {links, []}
+ ]}.
