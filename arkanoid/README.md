@@ -55,6 +55,18 @@ The game screen is divided into 4 quadrants, each managed by a dedicated slave n
 - **6 Terminal Windows** (4 slaves + 1 main + 1 python gui)
 
 
+
+  **intial shell commands**
+  ```bash
+  mkdir ....
+  git clone https://github.com/EtayKandil/Arkanoid_full.git
+  cd arkanoid_full
+  cd arkanoid
+  rebar3 compile
+  ```
+  
+
+
 1. **Update IP Configuration**:
    ```bash
    # Edit src/distributed_config.erl with your machine's IP
